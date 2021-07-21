@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject>FirstProgram.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AccessModifier">
+      <HintPath>..\AccessModifier\obj\Debug\net5.0\ref\AccessModifier.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
